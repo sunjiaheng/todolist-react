@@ -1,0 +1,42 @@
+body {
+  	color: black;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6,li,ul{
+	margin: 0;
+    padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+.main{
+	width: 700px;
+	margin: 50px auto;
+	border: 2px solid #ccc;
+
+}
+
+
+
+.nav{
+	overflow: hidden;
+	padding: 0 30px;
+	background:#ccc;
+	li{
+		float: left;
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}	
+	.focus{
+		color: red;
+	}
+}
+
